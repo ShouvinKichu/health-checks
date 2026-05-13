@@ -12,6 +12,6 @@ def check_cpu_usage():
     return usage < 75
 
 if not check_dsk_usage("/") or not check_cpu_usage():
-    print("ERROR!!")
+    print("ERROR!!!")
 else:
-    print("EVERYTHING IS OK!!")
+    print("EVERYTHING IS OK!!.")
