@@ -1,0 +1,18 @@
+2026-07-15 08:00:01 UTC [1024] INFO  systemd: Starting System Logging Service...
+2026-07-15 08:00:02 UTC [1024] INFO  systemd: Started System Logging Service.
+2026-07-15 08:00:15 UTC [2150] INFO  sshd: Server listening on 0.0.0.0 port 22.
+2026-07-15 08:01:23 UTC [3112] INFO  cron: (root) CMD (run-parts /etc/cron.hourly)
+2026-07-15 08:02:45 UTC [2150] INFO  sshd: Connection received from 192.168.1.50 port 54322
+2026-07-15 08:02:48 UTC [4501] ERROR sshd: Password authentication failed for user 'admin' from 192.168.1.50
+2026-07-15 08:03:01 UTC [4501] WARN  sshd: Invalid user dev_test from 192.168.1.50
+2026-07-15 08:05:12 UTC [5120] INFO  nginx: Worker process 5121 started
+2026-07-15 08:05:12 UTC [5120] INFO  nginx: Worker process 5122 started
+2026-07-15 08:06:30 UTC [5121] INFO  nginx: 192.168.1.100 "GET /index.html HTTP/1.1" 200 4321
+2026-07-15 08:07:44 UTC [5122] WARN  nginx: 192.168.1.105 "GET /images/logo.png HTTP/1.1" 404 154
+2026-07-15 08:10:00 UTC [6231] INFO  postgres: Autovacuum launcher started
+2026-07-15 08:12:15 UTC [6235] ERROR postgres: Database 'production_db' connection timeout from pool
+2026-07-15 08:15:33 UTC [7114] CRITICAL kernel: Out of memory: Kill process 5122 (nginx) score 850 or sacrifice child
+2026-07-15 08:15:33 UTC [1024] WARN  systemd: A dependency job for nginx.service failed.
+2026-07-15 08:16:00 UTC [7150] INFO  python_app: Initialization completed in 0.45s
+2026-07-15 08:16:02 UTC [7150] DEBUG python_app: Connecting to database cluster at 10.0.0.5
+2026-07-15 08:18:19 UTC [2150] INFO  sshd: Connection closed by authenticating user 192.168.1.50
