@@ -5,8 +5,8 @@
 # print(datetime.datetime.fromtimestamp(timetamp))
 
 
-import re
-process = open("process.log").read()
-regex = r'\[(\d+)\]'
-result = re.findall(regex, process)
-print(result)
+# import re
+# process = open("process.log").read()
+# regex = r'\[(\d+)\]'
+# result = re.findall(regex, process)
+# print(result)
