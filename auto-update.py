@@ -16,11 +16,11 @@
 # print(counter)
 
 
-import re
+# import re
 
-with open("process.log") as file:
-    text = file.read()
+# with open("process.log") as file:
+#     text = file.read()
 
-matches = re.findall(r"\d+\.\d+\.\d+\.\d+", text)
+# matches = re.findall(r"\d+\.\d+\.\d+\.\d+", text)
 
-print(matches)
+# print(matches)
