@@ -1,8 +1,8 @@
-# import os
-# import datetime
-# timetamp = os.path.getmtime("health.log")
+import os
+import datetime
+timetamp = os.path.getmtime("health.log")
 
-# print(datetime.datetime.fromtimestamp(timetamp))
+print(datetime.datetime.fromtimestamp(timetamp))
 
 
 import re
